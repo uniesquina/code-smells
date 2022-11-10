@@ -184,5 +184,5 @@ docker build -t codesmell .
 
 Run tests into the container
 ```
-docker rum --rm codesmell mvn test
+docker run --rm codesmell mvn test
 ```
