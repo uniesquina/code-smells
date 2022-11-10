@@ -173,3 +173,16 @@ Comments lie. Make your code expressive enough to tell the truth instead by payi
 
 * Replace type code with subclasses:
 	- Replace i.e. constants with sub classes.
+
+
+## RUN WITH DOCKER
+
+Build the image
+```
+docker build -t codesmell .
+```
+
+Run tests into the container
+```
+docker rum --rm codesmell mvn test
+```
